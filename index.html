@@ -1,10 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <meta name="description" content="Pelumi Longe — Full-Stack Engineer with 7+ years of experience building scalable web products." />
+    <title>Pelumi Longe | Full-Stack Engineer</title>
+    <!-- Apply saved theme before React mounts to prevent flash -->
+    <script>
+      (function () {
+        var theme = localStorage.getItem('portfolio-theme') || 'dark';
+        document.documentElement.classList.remove('dark', 'light');
+        document.documentElement.classList.add(theme);
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
