@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Rounded indigo background -->
+  <rect width="32" height="32" rx="7" fill="#6366f1"/>
+  <!-- P -->
+  <text
+    x="7"
+    y="22"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-weight="800"
+    font-size="17"
+    fill="white"
+    letter-spacing="-0.5"
+  >PL</text>
+</svg>
